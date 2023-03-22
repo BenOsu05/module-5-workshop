@@ -39,6 +39,6 @@ public class FizzBuzzTests
     public void Should_Return_FizzBuzz()
     {
          Assert.Equal("FizzBuzz", _fizzBuzzService.Print(15));
-          Assert.Equal("FizzBuzz", _fizzBuzzService.Print(30));
+        Assert.Equal("FizzBuzz", _fizzBuzzService.Print(30));
     }
 }
